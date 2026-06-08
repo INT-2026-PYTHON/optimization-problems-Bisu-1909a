@@ -81,9 +81,8 @@ def has_duplicate_fast(nums):
 nums1 = [1, 2, 3, 1]
 nums2 = [1, 2, 3, 4]
 
-print("Input:", nums1)
 print("Brute Force:", has_duplicate_brute(nums1))   
 print("Optimized:  ", has_duplicate_fast(nums1))   
-print("\nInput:", nums2)
+
 print("Brute Force:", has_duplicate_brute(nums2))   
 print("Optimized:  ", has_duplicate_fast(nums2))   

@@ -103,10 +103,8 @@ def first_repeating_fast(nums):
 nums1 = [10, 5, 3, 4, 3, 5, 6]
 nums2 = [1, 2, 3, 4, 5]
 
-print("Input:", nums1)
 print("Brute Force:", first_repeating_brute(nums1))
 print("Optimized:  ", first_repeating_fast(nums1))
 
-print("\nInput:", nums2)
 print("Brute Force:", first_repeating_brute(nums2))
 print("Optimized:  ", first_repeating_fast(nums2))
